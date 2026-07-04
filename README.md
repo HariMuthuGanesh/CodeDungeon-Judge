@@ -9,14 +9,20 @@ Dockerized C++ judge server for Code Dungeon. This server receives C++ code from
 
 ## Setup
 
-1. Install dependencies:
+1. Build the Docker sandbox image:
+This image is required to run C++ code securely in an isolated environment.
+```bash
+docker build -t cpp-runner .
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Start the server:
+3. Start the server:
 ```bash
 npm start
 ```
 
-The server will run by default on port `5000`.
+The server will run by default on port `5000` (or `9090` based on the configuration).
