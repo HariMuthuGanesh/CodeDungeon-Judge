@@ -1,0 +1,32 @@
+{
+  "7": {
+    "title": "The Cipher Gate",
+    "type": "coding_auto",
+    "description": "Palindrome checker ignoring spaces and case.",
+    "cases": [
+      { "input": "racecar", "expected": "OPEN\n" },
+      { "input": "hello", "expected": "LOCKED\n" },
+      { "input": "A man a plan a canal Panama", "expected": "OPEN\n" },
+      { "input": "abba", "expected": "OPEN\n" },
+      { "input": "abcba", "expected": "OPEN\n" },
+      { "input": "ChatGPT", "expected": "LOCKED\n" },
+      { "input": "Was it a rat I saw", "expected": "OPEN\n" },
+      { "input": "coding", "expected": "LOCKED\n" }
+    ]
+  },
+  "8": {
+    "title": "Dungeon Energy Network",
+    "type": "coding_auto",
+    "description": "Maximum contiguous subarray sum.",
+    "cases": [
+      { "input": "5\n1 2 3 4 5", "expected": "15\n" },
+      { "input": "5\n-1 -2 -3 -4 -5", "expected": "-1\n" },
+      { "input": "8\n-2 -3 4 -1 -2 1 5 -3", "expected": "7\n" },
+      { "input": "1\n100", "expected": "100\n" },
+      { "input": "6\n2 -1 2 3 4 -5", "expected": "10\n" },
+      { "input": "7\n5 -2 3 4 -1 2 -2", "expected": "11\n" },
+      { "input": "5\n0 0 0 0 0", "expected": "0\n" },
+      { "input": "10\n1 -2 3 10 -4 7 2 -5 6 -3", "expected": "19\n" }
+    ]
+  }
+}
